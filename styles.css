@@ -1,0 +1,73 @@
+body {
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e2e2e2;
+}
+
+.form-container {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 1em;
+    background-color: white;
+    border: 1px solid #e2e2e2;
+    border-radius: 1em;
+}
+
+h3 {
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.25em;
+    font-weight: 500;
+    line-height: 20px;
+    color: #333;
+}
+
+input[type="text"], input[type="email"], input[type="password"], fieldset {
+    width: 100%;
+    margin-top: 0.25em; 
+    margin-bottom: 1.5em;
+    padding: 1em;
+    box-sizing: border-box;
+    border: 1px solid #e2e2e2;
+    border-radius: 1em;
+}
+
+.button-container {
+    display: flex;
+    margin-bottom: 0.5em;
+    gap: 1em;
+}
+
+button {
+    flex: 1;
+    padding: 1em;
+    border: 1px solid blue;
+    border-radius: 1em;
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+}
+
+button[type="reset"]:hover {
+    border: 1px solid blue;
+    color: blue;
+    background-color: white;
+}
+
+button[type="submit"]:hover {
+    border: 1px solid navy;
+    color: #e2e2e2;
+    background-color: navy;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: small;
+}
